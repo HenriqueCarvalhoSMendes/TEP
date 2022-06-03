@@ -171,7 +171,8 @@ a{
 
 .texto {
     width: 50vw;
-    margin: 1vw;
+    margin: 1
+    vw;
     display: flex;
     flex-direction: row;
 }
