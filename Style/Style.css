@@ -4,8 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    display: flex;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
@@ -20,19 +19,27 @@ a{
     font-weight: 900;
 }
 
+.divisor {
+    background-image: url(../Assets/3\ imagem.png);
+    background-size: cover;
+    width: 100vw;
+    height: 20vh;
+}
+
 .size {
     font-size: 5.5vw;
 }
 
 .container {
     width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
     border: 0;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .menu-topo {
@@ -74,6 +81,7 @@ a{
 .text {
  width: 25vw;
  margin-left: 10vw;
+ margin-top: 10vw;
 }
 
 .text > h1 {
@@ -101,3 +109,24 @@ a{
     width: 2vw;
 }
 
+.sessaoDois {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/2\ imagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.sobreNos {
+    width: 30vw;
+    margin: 2vw 3vw 2vw 5vw;
+}
+
+.sobreNos > h1 {
+    font-weight: 100;
+    font-size: 5vw;
+}
