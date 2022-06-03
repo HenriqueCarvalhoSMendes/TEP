@@ -82,3 +82,22 @@ a{
     color: white;
     line-height: 3.5vw;
 }
+
+.menu-secundario {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-secundario > a {
+    margin: 1vw 2vw 0vw 2vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.menu-secundario > a > img {
+    width: 2vw;
+}
+
