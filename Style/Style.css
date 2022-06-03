@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,900&family=Source+Sans+3:wght@200;400;600;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-topo {
+    width: 100vw;
+    height: 75px;
+    background-color: #004badaf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-topo > .logo > a > img {
+    width: 150px;
+    margin-left: 2vw;
+}
+
+.search{
+    width: 200px;
+}
+
+.sessaoUm {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/1\ imagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redes {
+    margin-right: 2vw;
+}
+
+.redes > a > img {
+    width: 50px;
+    margin: 10px 0px 10px 0px;
+}
