@@ -16,6 +16,14 @@ a{
     text-decoration: none;
 }
 
+.bold {
+    font-weight: 900;
+}
+
+.size {
+    font-size: 5.5vw;
+}
+
 .container {
     width: 100vw;
     box-sizing: border-box;
@@ -30,7 +38,7 @@ a{
 .menu-topo {
     width: 100vw;
     height: 75px;
-    background-color: #004badaf;
+    background-color: #015cd3af;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,7 +59,7 @@ a{
     background-image: url(../Assets/1\ imagem.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
 }
 
 .redes {
@@ -61,4 +69,16 @@ a{
 .redes > a > img {
     width: 50px;
     margin: 10px 0px 10px 0px;
+}
+
+.text {
+ width: 25vw;
+ margin-left: 10vw;
+}
+
+.text > h1 {
+    font-size: 3.5vw;
+    font-weight: 100;
+    color: white;
+    line-height: 3.5vw;
 }
