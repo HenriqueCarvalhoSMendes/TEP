@@ -26,6 +26,18 @@ a{
     height: 20vh;
 }
 
+.espc {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.espc > h1 {
+    font-weight: 100;
+    color: #015dd5;
+    font-size: 3vw;
+}
+
 .size {
     font-size: 5.5vw;
 }
@@ -45,7 +57,7 @@ a{
 .menu-topo {
     width: 100vw;
     height: 75px;
-    background-color: #015cd3af;
+    background-color: #015dd5af;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,11 +134,49 @@ a{
 }
 
 .sobreNos {
-    width: 30vw;
+    width: 35vw;
     margin: 2vw 3vw 2vw 5vw;
 }
 
 .sobreNos > h1 {
     font-weight: 100;
     font-size: 5vw;
+}
+
+.sobreNos > p {
+    font-size: 2vw;
+}
+
+.seta {
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+    left: 20vw;
+    cursor: pointer;
+  }
+
+.sessaoTres {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../Assets/seta\ fundo\ nossa\ historia.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    width: 50vw;
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto > p {
+    color: white;
+    font-size: 2vw;
 }
