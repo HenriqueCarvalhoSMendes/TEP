@@ -1,0 +1,8 @@
+.bannerAniversario {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/BANNER-aniversario.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
