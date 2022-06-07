@@ -5,4 +5,36 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
+    overflow: hidden;
+}
+
+.aniver > h1 {
+    font-size: 7vw;
+    line-height: 6.5vw;
+    text-align: center;
+}
+
+.month {
+    font-size: 10vw;
+}
+
+.ano {
+    width: 100vw;
+    height: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+
+
+.ano > p {
+    color: white;
+    font-size: 6vw;
+    line-height: 4.5vw;
+    font-weight: 100;
+    margin-right: 2vw;
 }
