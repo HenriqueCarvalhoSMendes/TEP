@@ -11,6 +11,10 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.menuList:hover {
+    border-bottom: 5px solid #015dd5af;
+}
+
 a{
     text-decoration: none;
 }
