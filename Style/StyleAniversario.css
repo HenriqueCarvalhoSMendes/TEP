@@ -43,10 +43,10 @@
     width: 100vw;
     height: fit-content;
     text-align: center;
-    
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 
 .cards {
@@ -54,7 +54,7 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
 .aniversariantes > h1 {
@@ -64,15 +64,35 @@
 }
 
 .cardAniver {
-    width: 25vw;
+    width: 20vw;
     height: 30vw;
     padding: 2vw;
     border-radius: 40px;
     box-shadow: 0 0 25px 1px #000000af;
     margin: 2vw ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .cardAniver > .foto > img {
     width: 10vw;
     border-radius: 100%;
+}
+
+.cardAniver > .aniverNome > h2 {
+    color: #0047a5;
+    font-size: 1.5vw;
+}
+
+.cardAniver > .aniverDados > p {
+    color: #0047a5;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.cardAniver > .hojeChegando > h1 {
+    font-weight: 100;
+    align-content: baseline;
 }
