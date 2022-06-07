@@ -10,12 +10,12 @@
 
 .aniver > h1 {
     font-size: 7vw;
-    line-height: 6.5vw;
+    line-height: 6vw;
     text-align: center;
 }
 
 .month {
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 .ano {
@@ -26,7 +26,7 @@
     justify-content: right;
     align-items: center;
     position: relative;
-    top: 150px;
+    top: 175px;
 }
 
 

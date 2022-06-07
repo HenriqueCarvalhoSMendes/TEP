@@ -125,7 +125,7 @@
   
   #mainView {
     height: 50vh;
-    width: 60vw;  
+    width: 60%;  
     border-radius: 5px;
     background-color: #004badaf;
     background-size: cover;
@@ -137,7 +137,7 @@
   }
   
   #mainView:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     transition: all 1s;   
   }
   
