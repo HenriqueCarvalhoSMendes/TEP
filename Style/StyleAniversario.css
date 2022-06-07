@@ -38,3 +38,41 @@
     font-weight: 100;
     margin-right: 2vw;
 }
+
+.aniversariantes {
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cards {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.aniversariantes > h1 {
+    color: #0047a5;
+    font-weight: 100;
+    font-size: 3.5vw;
+}
+
+.cardAniver {
+    width: 25vw;
+    height: 30vw;
+    padding: 2vw;
+    border-radius: 40px;
+    box-shadow: 0 0 25px 1px #000000af;
+    margin: 2vw ;
+}
+
+.cardAniver > .foto > img {
+    width: 10vw;
+    border-radius: 100%;
+}
