@@ -33,10 +33,10 @@ function toggleState3() {
 }
 
 let imgObject = [
-  "assets/2019.png",
-  "assets/2020.png",
-  "assets/2021.png",
-  "assets/2022.png"
+  "Assets/2019.png",
+  "Assets/2020.png",
+  "Assets/2021.png",
+  "Assets/2022.png"
 ];
 
 let mainImg = 0;
