@@ -121,3 +121,15 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 53%, rgba(0,53,182,1) 82
 .boloImagem > img {
     width: 5vw;
 }
+
+.previous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
