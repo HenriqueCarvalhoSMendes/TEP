@@ -1,0 +1,57 @@
+.bannerEventos {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/BANNER\ eventos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+.eventos > h1 {
+    font-size: 7vw;
+    line-height: 6vw;
+    text-align: left;
+}
+
+.tema {
+    font-size: 8vw;
+}
+
+.eventosSession {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(#);
+    background-color: rgb(64, 100, 167);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    overflow: hidden;
+}
+
+.tituloEvento > h1 {
+    font-weight: 100;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.eventosTexto {
+    width: 40vw;
+}
+
+.eventosTexto > p {
+    color: white;
+    font-size: 2vw;
+}
+
+.eventosCarousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.eventosFoto > img {
+    width: 40vw;
+    margin-top: 2vw;
+}
+
