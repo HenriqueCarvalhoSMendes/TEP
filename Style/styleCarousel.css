@@ -3,16 +3,6 @@
     padding: 0;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-}
-
-
 .slide {
     width: 100vw;
     height: 576px;
@@ -23,12 +13,15 @@ body {
 
 .slides {
     width: 100vw;
+    height: fit-content;
     display: flex;
 }
 
 .images img {
     width: 100vw;
-    height: 576px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
 #atual {
@@ -37,8 +30,8 @@ body {
 }
 
 .btn {
-    position: absolute;
-    color: black;
+    position: relative;
+    color: red;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -51,17 +44,17 @@ body {
 }
 
 .btn:hover {
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 #voltar {
-    top: 50%;
-    left: 10%;
+    bottom: 10vw;
+    left: 1%;
 }
 
 #next {
-    top: 50%;
-    right: 10%;
+    bottom: 15vw;
+    right: -46%;
 }
 
 
@@ -75,7 +68,7 @@ body {
 
 .balls div {
     transition: all 0.5s;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 50%;
     padding: 6px;
     margin-right: 15px;
@@ -88,23 +81,39 @@ body {
 
 .imgAtual {
     transition: all 0.5s;
-    background: black;
+    background: #0055c9;
 }
 
-.text {
-    position: fixed;
-    width: 50vw;
+.parag {
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+}
+
+.lorem{
+    color: wheat;
+    justify-content: center;
+    align-items: left;
+    width: 50vw;
+    text-align: left;
+    display: flex;
+    font-size: 2vw;
 }
 
 
 .images {
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 576px;
+}
+
+.ano {
+    color: white;
+    font-size: 5vw;
 }
