@@ -35,7 +35,7 @@
     padding: 10px;
     text-align: center;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.4s;
@@ -48,12 +48,12 @@
 }
 
 #voltar {
-    bottom: 10vw;
-    left: 1%;
+    bottom: ;
+    left: ;
 }
 
 #next {
-    bottom: 15vw;
+    bottom: 17vw;
     right: -46%;
 }
 
@@ -87,6 +87,7 @@
 .parag {
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -115,5 +116,5 @@
 
 .ano {
     color: white;
-    font-size: 5vw;
+    font-size: 7vw;
 }
